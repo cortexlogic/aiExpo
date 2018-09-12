@@ -42,7 +42,7 @@ Go back to the login directory by executing just:
 
 To get this repo on your server clone it from github by executing
 
-    git clone {URL}
+    git clone https://github.com/cortexlogic/aiExpo.git
     
 Inside this directory you'll find all the notebooks discussed and presented in the workshops. Double-click on any of them in the file browser sidebar to open. Make sure the notebook is runnning in the fastai kernel. This can be checked and changed at the top-right corner of the running notebook.
 
