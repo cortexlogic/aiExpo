@@ -65,7 +65,7 @@ To download and extract the necessary COCO files in the right location, execute 
     unzip -q val2017.zip
     unzip -q annotations_trainval2014.zip
     
-If *unzip* is not yet installed, run `sudo apt install unzip`. The zip files can be removed by executing `rm train2017.zip`, for example.
+If *unzip* is not yet installed, run `sudo apt install unzip`. The zip files can be removed by executing `rm -r *.zip`.
 
 We also used the [COCO API](https://github.com/cocodataset/cocoapi) to interact with the COCO annotation files. To get it on the server and ready for use, run the following:
 
@@ -85,26 +85,31 @@ or using the [CurlWget](https://chrome.google.com/webstore/detail/curlwget/jmocj
 1. Click on the data download link
 2. Stop the download.
 3. Get the command from the CurlWget add-on
-4. Exectute the command in your terminal after running:
-    
-    cd ~/aiExpo/data/seefood
+4. Exectute the command in your terminal after running `cd ~/aiExpo/data/seefood`
 
 To unpack these files and name them the way we want it to be named:
 
     unzip -q food41.zip
-    unzip -q images.zip
-    mv images train_images
-    
+    mkdir train_images
+    unzip -q images.zip -d train_images
+    rm -r *.zip
+
+Both these approaches requires a Kaggle account.
+
     
 **Now we are ready to run any of the example notebooks!**
 
 
 ## Hot dog/Not hot dog
 
++ Presented at Monday session.
+
 `hotdog.ipynb`
 
 
 ## Seefood
+
++ Presented at Tuesday session.
 
 `seefood.ipynb`
 
