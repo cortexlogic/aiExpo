@@ -60,7 +60,7 @@ To download and extract the necessary COCO files in the right location, execute 
     cd ~/aiExpo/data/coco
     wget http://images.cocodataset.org/zips/train2017.zip
     wget http://images.cocodataset.org/zips/val2017.zip
-    wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip
+    wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
     unzip -q train2017.zip
     unzip -q val2017.zip
     unzip -q annotations_trainval2014.zip
@@ -94,7 +94,7 @@ To unpack these files and name them the way we want it to be named:
     unzip -q images.zip -d train_images
     rm -r *.zip
 
-Both these approaches requires a Kaggle account.
+Both these approaches require a Kaggle account.
 
     
 **Now we are ready to run any of the example notebooks!**
