@@ -57,9 +57,7 @@ In the Monday workshop we only used the [COCO](http://cocodataset.org/#home) dat
 
 To download and extract the necessary COCO files in the right location, execute the following in the server's terminal:
     
-    cd ~/aiExpo/data
-    mkdir coco
-    cd coco
+    cd ~/aiExpo/data/coco
     wget http://images.cocodataset.org/zips/train2017.zip
     wget http://images.cocodataset.org/zips/val2017.zip
     wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip
@@ -79,21 +77,17 @@ We also used the [COCO API](https://github.com/cocodataset/cocoapi) to interact 
     
 To get the Food-101 dataset, you can download it from Kaggle either using the kaggle-api (requires additional setup):
 
-    cd ~/aiExpo/data
-    mkdir food101
-    cd food101
+    cd ~/aiExpo/data/seefood
     kaggle datasets download -d kmader/food41
     
 or using the [CurlWget](https://chrome.google.com/webstore/detail/curlwget/jmocjfidanebdlinpbcdkcmgdifblncg?hl=en) tool (in Chrome; look for [cliget](https://addons.mozilla.org/en-US/firefox/addon/cliget/) if using Firefox):
 
-    1. Click on the data download link
-    2. Stop the download.
-    3. Get the command from the CurlWget add-on
-    4. Exectute the command in your terminal after running:
+1. Click on the data download link
+2. Stop the download.
+3. Get the command from the CurlWget add-on
+4. Exectute the command in your terminal after running:
     
-    cd ~/aiExpo/data
-    mkdir food101
-    cd food101
+    cd ~/aiExpo/data/seefood
 
 To unpack these files and name them the way we want it to be named:
 
