@@ -12,8 +12,8 @@ Most of the code is based on work done by the Fastai community. So please check 
 
 You'll need a machine with a GPU to run this code efficiently. If you don't have access to one already, here are your options:
 
-1. [Salamander](https://salamander.ai/): The
-2. [Kaggel Kernels](https://www.kaggle.com/kernels):
+1. [Salamander](https://salamander.ai/)
+2. [Kaggel Kernels](https://www.kaggle.com/kernels)
 3. [Building your own machine](http://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536)
 
 
@@ -21,7 +21,7 @@ You'll need a machine with a GPU to run this code efficiently. If you don't have
 
 Salamander is easy to use and in addition you also get full control of the machine; it's very cheap and has friendly support. Therefore we chose this option for the workshop. To get started using Salamander, go to the [website](https://salamander.ai/), follow the steps to create an account and then design your server. 75GB SSD and either of the *Accelerated Computing* servers will do just fine. You can uncheck the *TensorFlow* box in the software tab. 
 
-Once your server is up and running, you can open up a Jupyter Lab environment by clicking on the *Jupyter Lab* box.
+Once your server is up and running (might take a few minutes to start), you can open up a Jupyter Lab environment by clicking on the *Jupyter Lab* box.
 
 
 ### Updating Fastai
@@ -35,7 +35,7 @@ Open up a terminal using the Jupyter Lab Launcher. Go into the `fastai` director
     
 Go back to the login directory by executing just:
 
-    `cd`    
+    cd    
 
 
 ### Getting the code
