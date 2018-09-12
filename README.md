@@ -119,6 +119,13 @@ Both these approaches require a Kaggle account.
 `blocked.ipynb`
 
 
+## "Deployment"
+
+See `demo.py` for an example of how you can use a fastai trained model to run in a different environment, like for example using it with your webcam. Note, this code is not polished and is only given as a proof of concept. See [this](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166) blog post on how you can use Flask amongst other tools to deploy machine learning models as a REST API.
+
+Run this script using `python demo.py` in terminal.
+
+
 ## Additional Resources
 
 Some of the resources I referred to during the sessions:
