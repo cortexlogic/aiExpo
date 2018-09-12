@@ -106,6 +106,8 @@ Both these approaches require a Kaggle account.
 
 `hotdog.ipynb`
 
+This is the best documented notebook and recommended place to start.
+
 
 ## Seefood
 
@@ -113,10 +115,16 @@ Both these approaches require a Kaggle account.
 
 `seefood.ipynb`
 
+This is very similar to the hotdog notebook, but does multiclass classification of 101 food categories. This is a cleaned version of the "live" coded version done in the workshop. Since most of the concepts are identical to the ones in the `hotdog.ipynb`, they are not documented in detail.
+
 
 ## Blocked
 
++ The person segmentation application.
+
 `blocked.ipynb`
+
+This notebook will be a bit harder for beginners to follow and is not that well documented either. But will still leave it up here for those looking for guidance on segmentation task.
 
 
 ## "Deployment"
