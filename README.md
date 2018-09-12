@@ -90,8 +90,8 @@ or using the [CurlWget](https://chrome.google.com/webstore/detail/curlwget/jmocj
 To unpack these files and name them the way we want it to be named:
 
     unzip -q food41.zip
-    mkdir train_images
-    unzip -q images.zip -d train_images
+    mkdir train
+    unzip -q images.zip -d train
     rm -r *.zip
 
 Both these approaches require a Kaggle account.
@@ -115,7 +115,9 @@ This is the best documented notebook and recommended place to start.
 
 `seefood.ipynb`
 
-This is very similar to the hotdog notebook, but does multiclass classification of 101 food categories. This is a cleaned version of the "live" coded version done in the workshop. Since most of the concepts are identical to the ones in the `hotdog.ipynb`, they are not documented in detail.
+This is very similar to the hotdog notebook, but does multiclass classification of 101 food categories. This is the exact version we coded "live" in the workshop, with the only changes being made to the data paths. Since most of the concepts are identical to the ones in the `hotdog.ipynb`, I won't add comments to the code.
+
+This model can be trained for a lot longer than actually being done in the notebook. If anyone is willing to, would be interested to know how accurate you got it. Maybe if I have some time in the near future I will revisit this.
 
 
 ## Blocked
@@ -125,6 +127,10 @@ This is very similar to the hotdog notebook, but does multiclass classification 
 `blocked.ipynb`
 
 This notebook will be a bit harder for beginners to follow and is not that well documented either. But will still leave it up here for those looking for guidance on segmentation task.
+
+This version of the notebook contains all the code but not all the output of the completed cells, for the reason that it takes a bit of time to execute everything and I don't have a copy of the completed version anymore. But I have trained the model to a validation accuracy of around 98% - this was the one being demo'd in the workshop.
+
+You can always watch the fastai [lesson](http://course.fast.ai/lessons/lesson14.html) this notebook is based on, if you want more details. 
 
 
 ## "Deployment"
